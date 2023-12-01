@@ -1,0 +1,14 @@
+{{>partials/header}}
+<h1>Adicionar produto</h1>
+
+<form action = '/cadastro' method="POST"><br>
+Nome:
+<input type ="text" id="nome" name="nome" required><br>
+Preço:
+<input type ="text" id="preco" name="preco" required><br>
+<br>
+<input type ="submit" value="Cadastrar"><br>
+
+
+<a href = '/produtos'>Clique aqui</a> para voltar para a página de produtos
+{{>partials/footer}}
